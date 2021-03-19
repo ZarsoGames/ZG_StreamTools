@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="StreamTools_R.exe" version="1.0.0.3" publicKeyToken="2b1047605c5236bf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="StreamTools_R" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="StreamTools_R.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StreamTools_R.exe" size="39888">
+      <assemblyIdentity name="StreamTools_R" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xwAA/wFl/qUS4Fm32y+brTHwb7Aj++kZyNeE9aKsLtI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="StreamTools_R.exe.config" size="3184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lHVkIwlTaLZbRBCyO6hqzriNlo9KEyuzZC1K0WRasEE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-8K4LTOQT\hp" issuerKeyHash="e803b7619893c9bdc2ada5d819b84f81a7eb9a0f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>o8JIjz+VeNKHTs6sX+EiMcB+TyZKewVNz4UxKnhmmC8=</DigestValue></Reference></SignedInfo><SignatureValue>mSmVwXjnBICLjKlZxDUfW/ztQemuBBg+JmvmvMsquSYqOrdFRaqQ1o6dGd57eBBAhrDvYJWuR2NozIGxs6TLb+7+sOqV8ll0fWdiRHP2N3RLa5aR5gikiUwHglQJLbV1xRSqFiRXCoj0tfYwFoMsXBKCotc0ZIVXuUbZmujC2QY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qS9Ag4UCTbYmc8dxIklnAOnp8NP+cnt1D6ys2TxGwRXNYsn4lcrwGGI1E8Rf3J0avm1hcyaLEeRXhDrUmsXf93Q9bPQLmqTx0q/RBG6iez7XBGNsVYx2r+mxroLiQTDpbyE5O/7IaNp6FWuMOcj1CMNs5OwypcPihweFdE/QxRE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2f9866782a3185cf4d057b4a264f7ec03122e15facce4e87d278953f8f48c2a3" Description="" Url=""><as:assemblyIdentity name="StreamTools_R.exe" version="1.0.0.3" publicKeyToken="2b1047605c5236bf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-8K4LTOQT\hp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dpdyMlVd7bbq1qBRV9TZj6aFV3JIFisypFEArxa3Rms=</DigestValue></Reference></SignedInfo><SignatureValue>i3Ir/sBo7jHfpcKJyEPGBUugfKgATDh5nKzeGESuynENJhfLafn6KpBZbrArUirDowgBTxcffZjOR+sMzJI4epk8C0rdlNlxdf1lV1CN88ZKEfH61AmapTSlB6iCjtU6cWrwFRCGPGprJDUTRFqB+DXM8wHntmgaL8+eZ0W+Jl4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qS9Ag4UCTbYmc8dxIklnAOnp8NP+cnt1D6ys2TxGwRXNYsn4lcrwGGI1E8Rf3J0avm1hcyaLEeRXhDrUmsXf93Q9bPQLmqTx0q/RBG6iez7XBGNsVYx2r+mxroLiQTDpbyE5O/7IaNp6FWuMOcj1CMNs5OwypcPihweFdE/QxRE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQE3es0lzo07FEchWoXfCkIzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQA4AEsANABMAFQATwBRAFQAXABoAHAwHhcNMjEwMzE0MjMyNTM5WhcNMjIwMzE1MDUyNTM5WjAvMS0wKwYDVQQDHiQATABBAFAAVABPAFAALQA4AEsANABMAFQATwBRAFQAXABoAHAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKkvQIOFAk22JnPHcSJJZwDp6fDT/nJ7dQ+srNk8RsEVzWLJ+JXK8BhiNRPEX9ydGr5tYXMmixHkV4Q61JrF3/d0PWz0C5qk8dKv0QRuons+1wRjbFWMdq/psa6C4kEw6W8hOTv+yGjaehVrjDnI9QjDbOTsMqXD4ocHhXRP0MURAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAh/lEVxQihz2/MW5J7f+x7hQYi7W+JJJt9pKIa6tF8T4OG2Bm6Oxf5e6b+4xPWLEDzWB/wIl7SXeTquNSREGB93VjsmG971fTaZIWUH7wWEbikVrFOPNJmGgvwe8fFc374oTqRw1X8Z+dU2lXJMWWv0P6VWhOC8z7kY2Gwi9dK5E=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

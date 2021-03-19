@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="StreamTools_R.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+    <userSettings>
+        <StreamTools_R.Properties.Settings>
+            <setting name="Torneo" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LinkTorneo" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ResP1" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="ResP2" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="nRound" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="player1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="player2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="bracketTypeText" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="roundText" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="LP1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="LP2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="pathStreamFolder" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="data1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="data2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="data3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="data4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="data5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="data6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="room_list" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="waiting_list" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="pathStreamlabsFolder" serializeAs="String">
+                <value />
+            </setting>
+        </StreamTools_R.Properties.Settings>
+    </userSettings>
+  
+  
+</configuration>
